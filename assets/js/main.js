@@ -1,5 +1,5 @@
 ﻿// Load product data
-fetch("../products.json")
+fetch("./products.json")
   .then(r=>r.json())
   .then(products=>{
     const list=document.getElementById("productList");
