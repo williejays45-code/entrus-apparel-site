@@ -1,0 +1,35 @@
+﻿body {
+  margin:0;
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  color:#f5f5f5;
+  background:#050510;
+}
+.hero {
+  height:90vh;
+  background:radial-gradient(circle at top,rgba(255,231,169,0.18)0,transparent55%),radial-gradient(circle at bottom,rgba(96,180,120,0.14)0,#05051070%);
+  display:flex;align-items:center;justify-content:center;text-align:center;
+}
+.hero-content h1 {letter-spacing:0.15em;font-size:2rem;margin:0;}
+.hero-content h2 {font-size:1rem;opacity:.75;margin:.3em 0 1em;}
+.cta {
+  background:linear-gradient(135deg,#f5d38b,#73c48d);
+  color:#1b1207;padding:.7em 1.5em;border-radius:999px;text-decoration:none;font-weight:600;
+}
+.grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;padding:2em;}
+.tile {
+  border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:1em;text-align:center;
+  background:rgba(10,10,18,.9);transition:.2s;cursor:pointer;
+}
+.tile:hover{border-color:#f5d38b;transform:translateY(-2px);}
+footer{text-align:center;font-size:.8rem;opacity:.6;padding:1em;}
+/* multi-page layout */
+.layout{display:flex;min-height:100vh;}
+.sidebar, .chat, .product-area{padding:1em;}
+.sidebar{width:220px;border-right:1px solid rgba(255,255,255,.1);}
+.chat{width:300px;border-left:1px solid rgba(255,255,255,.1);display:flex;flex-direction:column;}
+.chat-window{flex:1;overflow-y:auto;border:1px solid rgba(255,255,255,.2);border-radius:10px;padding:.5em;margin-bottom:.5em;}
+.msg{max-width:90%;margin:.3em 0;padding:.5em .7em;border-radius:10px;line-height:1.4;opacity:0;transform:translateY(6px);transition:opacity .3s ease,transform .3s ease;}
+.msg.show{opacity:1;transform:translateY(0);}
+.msg.bot{background:rgba(245,211,139,.08);border:1px solid rgba(245,211,139,.3);}
+.msg.user{margin-left:auto;background:rgba(118,191,255,.12);border:1px solid rgba(118,191,255,.3);}
+.typing{font-style:italic;opacity:.7;}

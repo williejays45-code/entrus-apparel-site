@@ -1,0 +1,35 @@
+﻿[
+  {
+    "id":"hoodie_528",
+    "name":"528 Hz Seal of Flow  Morning Gold Hoodie",
+    "subtitle":"Forest Green Spiral Seal  Morning Gold Edition",
+    "category":"Hoodie",
+    "fit":"Relaxed",
+    "material":"Matte cotton blend (fleece lined)",
+    "sigils":"Front spiral seal left-heart zone",
+    "care":"Machine wash cold, hang dry.",
+    "accent":"#73c48d"
+  },
+  {
+    "id":"hoodie_396",
+    "name":"396 Hz Seal of Protector  Guard the Flame Hoodie",
+    "subtitle":"Burnt Copper Armour Tone",
+    "category":"Hoodie",
+    "fit":"Slim",
+    "material":"Mid-weight cotton blend",
+    "sigils":"Protector Fusion seal at left-heart",
+    "care":"Wash cold inside-out.",
+    "accent":"#f5b56a"
+  },
+  {
+    "id":"jogger_639",
+    "name":"639 Hz Seal of Drive  Fuel the Bond Joggers",
+    "subtitle":"Connection Line  Sandstone Taupe",
+    "category":"Joggers",
+    "fit":"Tapered athletic",
+    "material":"Cotton blend with stretch",
+    "sigils":"Tri-ring seal on upper left thigh",
+    "care":"Wash cold, gentle cycle.",
+    "accent":"#6bb3f7"
+  }
+]
